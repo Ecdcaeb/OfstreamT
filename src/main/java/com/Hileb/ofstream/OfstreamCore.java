@@ -34,7 +34,9 @@ public class OfstreamCore {
 
     @EventHandler
     public void onInit(FMLInitializationEvent event) {
-        new KeyHandler();
+        if(!proxy.isServer()){
+            new KeyHandler();
+        }
     }
     public static void LogWarning(String str, Object... args) {
         if (SHOW_WARN) {

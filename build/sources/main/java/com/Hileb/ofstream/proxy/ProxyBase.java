@@ -1,4 +1,4 @@
-package com.Hileb.ofstream_advancement.proxy;
+package com.Hileb.ofstream.proxy;
 
 import net.minecraft.item.Item;
 

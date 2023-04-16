@@ -1,4 +1,4 @@
-package com.Hileb.ofstream_advancement.proxy;
+package com.Hileb.ofstream.proxy;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.settings.KeyBinding;
@@ -13,7 +13,7 @@ public class ClientProxy extends ProxyBase {
 	//public static final KeyBinding CAST_MAINHAND = new ModKeyBinding("activate_skill_mainhand", KeyConflictContext.IN_GAME, KeyModifier.NONE, Keyboard.KEY_R, "key.category.advanced_warning");
 	//public static final KeyBinding CAST_OFFHAND = new ModKeyBinding("activate_skill_offhand", KeyConflictContext.IN_GAME, KeyModifier.NONE, Keyboard.KEY_GRAVE, "key.category.advanced_warning");
 
-	public static final String PROXY="com.Hileb.ofstream_advancement.proxy.ClientProxy";
+	public static final String PROXY="com.Hileb.ofstream.proxy.ClientProxy";
 	public boolean isServer()
 	{
 		return false;
