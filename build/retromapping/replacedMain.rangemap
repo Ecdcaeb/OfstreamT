@@ -39,7 +39,7 @@ Class Start: com.Hileb.ofstream.KeyHandler
 Class End  : com.Hileb.ofstream.KeyHandler
 endProcessing "com/Hileb/ofstream/KeyHandler.java"
 
-startProcessing "com/Hileb/ofstream/OfstreamCore.java" md5: c2f237f3fabd21598eaa2acda0734658
+startProcessing "com/Hileb/ofstream/OfstreamCore.java" md5: d192a6e6c541e9a221f5c9895141e068
 @|com/Hileb/ofstream/OfstreamCore.java|8|26|com.Hileb.ofstream|package|com.Hileb.ofstream|(file)
 Class Start: com.Hileb.ofstream.OfstreamCore
    @|com/Hileb/ofstream/OfstreamCore.java|501|504|Mod|class|net.minecraftforge.fml.common.Mod|false
@@ -270,7 +270,7 @@ Class Start: com.Hileb.ofstream.ofstream.IDataOfstream
 Class End  : com.Hileb.ofstream.ofstream.IDataOfstream
 endProcessing "com/Hileb/ofstream/ofstream/IDataOfstream.java"
 
-startProcessing "com/Hileb/ofstream/ofstream/OfstreamEvent.java" md5: 8d14eb9ec4da20c29f4c19bc43d60193
+startProcessing "com/Hileb/ofstream/ofstream/OfstreamEvent.java" md5: 6e087a2d52a62d89cc115441ac8249ff
 @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|8|35|com.Hileb.ofstream.ofstream|package|com.Hileb.ofstream.ofstream|(file)
 Class Start: com.Hileb.ofstream.ofstream.OfstreamEvent
    @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|169|182|OfstreamEvent|class|com.Hileb.ofstream.ofstream.OfstreamEvent|false
@@ -298,41 +298,43 @@ Class Start: com.Hileb.ofstream.ofstream.OfstreamEvent
       Method End: register(Lcom/Hileb/ofstream/ofstream/OfstreamRegisterObject;)V
    Class End  : com.Hileb.ofstream.ofstream.OfstreamEvent.Register
    Class Start: com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs
-      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|664|668|EnUs|class|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|false
-      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|677|690|OfstreamEvent|class|com.Hileb.ofstream.ofstream.OfstreamEvent|false
-      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|715|719|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
-      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|715|719|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
-      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|720|724|i18n|field|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|i18n|
+      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|645|655|Deprecated|class|java.lang.Deprecated|false
+      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|681|685|EnUs|class|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|false
+      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|694|707|OfstreamEvent|class|com.Hileb.ofstream.ofstream.OfstreamEvent|false
+      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|732|736|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|732|736|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|737|741|i18n|field|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|i18n|
       Method Start: EnUs(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|752|758|i18nIn|param|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|EnUs|(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V|i18nIn|0
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|742|746|EnUs|method|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|EnUs|(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|747|751|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|774|778|i18n|field|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|i18n
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|779|785|i18nIn|param|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|EnUs|(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V|i18nIn|0
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|769|775|i18nIn|param|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|EnUs|(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V|i18nIn|0
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|759|763|EnUs|method|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|EnUs|(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|764|768|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|791|795|i18n|field|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|i18n
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|796|802|i18nIn|param|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|EnUs|(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V|i18nIn|0
       Method End: EnUs(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V
       Method Start: getI18n()Lcom/Hileb/ofstream/ofstream/lang/I18n;
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|816|820|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|821|828|getI18n|method|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|getI18n|()Lcom/Hileb/ofstream/ofstream/lang/I18n;
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|853|857|i18n|field|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|i18n
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|833|837|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|838|845|getI18n|method|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|getI18n|()Lcom/Hileb/ofstream/ofstream/lang/I18n;
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|870|874|i18n|field|com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs|i18n
       Method End: getI18n()Lcom/Hileb/ofstream/ofstream/lang/I18n;
    Class End  : com.Hileb.ofstream.ofstream.OfstreamEvent.EnUs
    Class Start: com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn
-      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|902|906|ZhCn|class|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|false
-      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|915|928|OfstreamEvent|class|com.Hileb.ofstream.ofstream.OfstreamEvent|false
-      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|953|957|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
-      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|953|957|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
-      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|958|962|i18n|field|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|i18n|
+      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|900|910|Deprecated|class|java.lang.Deprecated|false
+      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|936|940|ZhCn|class|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|false
+      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|949|962|OfstreamEvent|class|com.Hileb.ofstream.ofstream.OfstreamEvent|false
+      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|987|991|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|987|991|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+      @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|992|996|i18n|field|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|i18n|
       Method Start: ZhCn(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|990|996|i18nIn|param|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|ZhCn|(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V|i18nIn|0
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|980|984|ZhCn|method|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|ZhCn|(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|985|989|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|1012|1016|i18n|field|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|i18n
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|1017|1023|i18nIn|param|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|ZhCn|(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V|i18nIn|0
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|1024|1030|i18nIn|param|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|ZhCn|(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V|i18nIn|0
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|1014|1018|ZhCn|method|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|ZhCn|(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|1019|1023|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|1046|1050|i18n|field|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|i18n
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|1051|1057|i18nIn|param|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|ZhCn|(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V|i18nIn|0
       Method End: ZhCn(Lcom/Hileb/ofstream/ofstream/lang/I18n;)V
       Method Start: getI18n()Lcom/Hileb/ofstream/ofstream/lang/I18n;
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|1052|1056|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|1057|1064|getI18n|method|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|getI18n|()Lcom/Hileb/ofstream/ofstream/lang/I18n;
-         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|1089|1093|i18n|field|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|i18n
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|1086|1090|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|1091|1098|getI18n|method|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|getI18n|()Lcom/Hileb/ofstream/ofstream/lang/I18n;
+         @|com/Hileb/ofstream/ofstream/OfstreamEvent.java|1123|1127|i18n|field|com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn|i18n
       Method End: getI18n()Lcom/Hileb/ofstream/ofstream/lang/I18n;
    Class End  : com.Hileb.ofstream.ofstream.OfstreamEvent.ZhCn
 Class End  : com.Hileb.ofstream.ofstream.OfstreamEvent
@@ -971,74 +973,103 @@ Class Start: com.Hileb.ofstream.ofstream.irr.Renderer
 Class End  : com.Hileb.ofstream.ofstream.irr.Renderer
 endProcessing "com/Hileb/ofstream/ofstream/irr/Renderer.java"
 
-startProcessing "com/Hileb/ofstream/ofstream/lang/I18n.java" md5: 65cd414520a3f0a82f414a3a152c57a0
+startProcessing "com/Hileb/ofstream/ofstream/lang/I18n.java" md5: 4d3211a4be0b6673702bafe145904de1
 @|com/Hileb/ofstream/ofstream/lang/I18n.java|8|40|com.Hileb.ofstream.ofstream.lang|package|com.Hileb.ofstream.ofstream.lang|(file)
 Class Start: com.Hileb.ofstream.ofstream.lang.I18n
-   @|com/Hileb/ofstream/ofstream/lang/I18n.java|107|111|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
-   @|com/Hileb/ofstream/ofstream/lang/I18n.java|133|139|Locale|class|net.minecraft.client.resources.Locale|false
-   @|com/Hileb/ofstream/ofstream/lang/I18n.java|133|139|Locale|class|net.minecraft.client.resources.Locale|false
-   @|com/Hileb/ofstream/ofstream/lang/I18n.java|140|150|i18nLocale|field|com.Hileb.ofstream.ofstream.lang.I18n|i18nLocale|
-   @|com/Hileb/ofstream/ofstream/lang/I18n.java|170|176|String|class|java.lang.String|false
-   @|com/Hileb/ofstream/ofstream/lang/I18n.java|170|176|String|class|java.lang.String|false
-   @|com/Hileb/ofstream/ofstream/lang/I18n.java|177|181|type|field|com.Hileb.ofstream.ofstream.lang.I18n|type|
-   Method Start: I18n(Lnet/minecraft/client/resources/Locale;Ljava/lang/String;)V
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|207|215|localeIn|param|com.Hileb.ofstream.ofstream.lang.I18n|I18n|(Lnet/minecraft/client/resources/Locale;Ljava/lang/String;)V|localeIn|0
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|223|229|typeIn|param|com.Hileb.ofstream.ofstream.lang.I18n|I18n|(Lnet/minecraft/client/resources/Locale;Ljava/lang/String;)V|typeIn|1
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|195|199|I18n|method|com.Hileb.ofstream.ofstream.lang.I18n|I18n|(Lnet/minecraft/client/resources/Locale;Ljava/lang/String;)V
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|200|206|Locale|class|net.minecraft.client.resources.Locale|false
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|216|222|String|class|java.lang.String|false
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|241|251|i18nLocale|field|com.Hileb.ofstream.ofstream.lang.I18n|i18nLocale
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|252|260|localeIn|param|com.Hileb.ofstream.ofstream.lang.I18n|I18n|(Lnet/minecraft/client/resources/Locale;Ljava/lang/String;)V|localeIn|0
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|271|275|type|field|com.Hileb.ofstream.ofstream.lang.I18n|type
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|276|282|typeIn|param|com.Hileb.ofstream.ofstream.lang.I18n|I18n|(Lnet/minecraft/client/resources/Locale;Ljava/lang/String;)V|typeIn|1
-   Method End: I18n(Lnet/minecraft/client/resources/Locale;Ljava/lang/String;)V
+   @|com/Hileb/ofstream/ofstream/lang/I18n.java|188|192|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+   @|com/Hileb/ofstream/ofstream/lang/I18n.java|214|220|Locale|class|net.minecraft.client.resources.Locale|false
+   @|com/Hileb/ofstream/ofstream/lang/I18n.java|214|220|Locale|class|net.minecraft.client.resources.Locale|false
+   @|com/Hileb/ofstream/ofstream/lang/I18n.java|221|231|i18nLocale|field|com.Hileb.ofstream.ofstream.lang.I18n|i18nLocale|
+   @|com/Hileb/ofstream/ofstream/lang/I18n.java|251|257|String|class|java.lang.String|false
+   @|com/Hileb/ofstream/ofstream/lang/I18n.java|251|257|String|class|java.lang.String|false
+   @|com/Hileb/ofstream/ofstream/lang/I18n.java|258|262|type|field|com.Hileb.ofstream.ofstream.lang.I18n|type|
+   Method Start: I18n(Ljava/lang/String;)V
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|288|303|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.I18n|I18n|(Ljava/lang/String;)V|currentLanguage|0
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|276|280|I18n|method|com.Hileb.ofstream.ofstream.lang.I18n|I18n|(Ljava/lang/String;)V
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|281|287|String|class|java.lang.String|false
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|315|325|i18nLocale|field|com.Hileb.ofstream.ofstream.lang.I18n|i18nLocale
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|330|336|Locale|class|net.minecraft.client.resources.Locale|false
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|349|359|i18nLocale|field|com.Hileb.ofstream.ofstream.lang.I18n|i18nLocale
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|360|379|loadLocaleDataFiles|method|net.minecraft.client.resources.Locale|loadLocaleDataFiles|(Lnet/minecraft/client/resources/IResourceManager;Ljava/util/List;)V
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|381|390|Minecraft|class|net.minecraft.client.Minecraft|false
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|391|403|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|406|424|getResourceManager|method|net.minecraft.client.Minecraft|getResourceManager|()Lnet/minecraft/client/resources/IResourceManager;
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|428|433|Lists|class|com.google.common.collect.Lists|false
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|434|446|newArrayList|method|com.google.common.collect.Lists|newArrayList|([Ljava/lang/Object;)Ljava/util/ArrayList;
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|447|462|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.I18n|I18n|(Ljava/lang/String;)V|currentLanguage|0
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|475|479|type|field|com.Hileb.ofstream.ofstream.lang.I18n|type
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|480|495|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.I18n|I18n|(Ljava/lang/String;)V|currentLanguage|0
+   Method End: I18n(Ljava/lang/String;)V
    Method Start: format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|458|470|translateKey|param|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;|translateKey|0
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|482|492|parameters|param|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;|parameters|1
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|437|443|String|class|java.lang.String|false
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|444|450|format|method|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|451|457|String|class|java.lang.String|false
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|472|478|Object|class|java.lang.Object|false
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|517|527|i18nLocale|field|com.Hileb.ofstream.ofstream.lang.I18n|i18nLocale
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|528|541|formatMessage|method|net.minecraft.client.resources.Locale|formatMessage|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|542|554|translateKey|param|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;|translateKey|0
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|556|566|parameters|param|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;|parameters|1
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|671|683|translateKey|param|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;|translateKey|0
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|695|705|parameters|param|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;|parameters|1
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|650|656|String|class|java.lang.String|false
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|657|663|format|method|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|664|670|String|class|java.lang.String|false
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|685|691|Object|class|java.lang.Object|false
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|730|740|i18nLocale|field|com.Hileb.ofstream.ofstream.lang.I18n|i18nLocale
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|741|754|formatMessage|method|net.minecraft.client.resources.Locale|formatMessage|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|755|767|translateKey|param|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;|translateKey|0
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|769|779|parameters|param|com.Hileb.ofstream.ofstream.lang.I18n|format|(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;|parameters|1
    Method End: format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
    Method Start: hasKey(Ljava/lang/String;)Z
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|612|615|key|param|com.Hileb.ofstream.ofstream.lang.I18n|hasKey|(Ljava/lang/String;)Z|key|0
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|598|604|hasKey|method|com.Hileb.ofstream.ofstream.lang.I18n|hasKey|(Ljava/lang/String;)Z
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|605|611|String|class|java.lang.String|false
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|640|650|i18nLocale|field|com.Hileb.ofstream.ofstream.lang.I18n|i18nLocale
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|651|657|hasKey|method|net.minecraft.client.resources.Locale|hasKey|(Ljava/lang/String;)Z
-      @|com/Hileb/ofstream/ofstream/lang/I18n.java|658|661|key|param|com.Hileb.ofstream.ofstream.lang.I18n|hasKey|(Ljava/lang/String;)Z|key|0
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|825|828|key|param|com.Hileb.ofstream.ofstream.lang.I18n|hasKey|(Ljava/lang/String;)Z|key|0
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|811|817|hasKey|method|com.Hileb.ofstream.ofstream.lang.I18n|hasKey|(Ljava/lang/String;)Z
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|818|824|String|class|java.lang.String|false
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|853|863|i18nLocale|field|com.Hileb.ofstream.ofstream.lang.I18n|i18nLocale
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|864|870|hasKey|method|net.minecraft.client.resources.Locale|hasKey|(Ljava/lang/String;)Z
+      @|com/Hileb/ofstream/ofstream/lang/I18n.java|871|874|key|param|com.Hileb.ofstream.ofstream.lang.I18n|hasKey|(Ljava/lang/String;)Z|key|0
    Method End: hasKey(Ljava/lang/String;)Z
 Class End  : com.Hileb.ofstream.ofstream.lang.I18n
 endProcessing "com/Hileb/ofstream/ofstream/lang/I18n.java"
 
-startProcessing "com/Hileb/ofstream/ofstream/lang/LangHelper.java" md5: e8594bc8eaf9e473444efbbb11616cf7
+startProcessing "com/Hileb/ofstream/ofstream/lang/LangHelper.java" md5: 9bd7a820f1edf7e4afd1c8e0be9fa014
 @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|8|40|com.Hileb.ofstream.ofstream.lang|package|com.Hileb.ofstream.ofstream.lang|(file)
 Class Start: com.Hileb.ofstream.ofstream.lang.LangHelper
-   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|794|802|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
-   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|803|807|Side|class|net.minecraftforge.fml.relauncher.Side|false
-   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|808|814|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
-   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|830|840|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|177|185|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|186|190|Side|class|net.minecraftforge.fml.relauncher.Side|false
+   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|191|197|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|213|223|LangHelper|class|com.Hileb.ofstream.ofstream.lang.LangHelper|false
+   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|253|259|String|class|java.lang.String|false
+   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|260|264|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|245|252|HashMap|class|java.util.HashMap|false
+   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|245|252|HashMap|class|java.util.HashMap|false
+   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|253|259|String|class|java.lang.String|false
+   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|260|264|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|266|279|LANGUAGES_MAP|field|com.Hileb.ofstream.ofstream.lang.LangHelper|LANGUAGES_MAP|
+   @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|284|291|HashMap|class|java.util.HashMap|false
    Method Start: getI18n(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|882|897|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;|currentLanguage|0
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|862|866|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|867|874|getI18n|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|875|881|String|class|java.lang.String|false
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|915|921|Locale|class|net.minecraft.client.resources.Locale|false
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|933|939|Locale|class|net.minecraft.client.resources.Locale|false
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|959|978|loadLocaleDataFiles|method|net.minecraft.client.resources.Locale|loadLocaleDataFiles|(Lnet/minecraft/client/resources/IResourceManager;Ljava/util/List;)V
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|980|989|Minecraft|class|net.minecraft.client.Minecraft|false
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|990|1002|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|1005|1023|getResourceManager|method|net.minecraft.client.Minecraft|getResourceManager|()Lnet/minecraft/client/resources/IResourceManager;
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|1027|1032|Lists|class|com.google.common.collect.Lists|false
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|1033|1045|newArrayList|method|com.google.common.collect.Lists|newArrayList|([Ljava/lang/Object;)Ljava/util/ArrayList;
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|1046|1061|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;|currentLanguage|0
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|1087|1091|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
-      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|1099|1114|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;|currentLanguage|0
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|336|351|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;|currentLanguage|0
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|316|320|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|321|328|getI18n|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|329|335|String|class|java.lang.String|false
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|373|386|LANGUAGES_MAP|field|com.Hileb.ofstream.ofstream.lang.LangHelper|LANGUAGES_MAP
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|387|398|containsKey|method|java.util.Map|containsKey|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|399|414|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;|currentLanguage|0
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|438|451|LANGUAGES_MAP|field|com.Hileb.ofstream.ofstream.lang.LangHelper|LANGUAGES_MAP
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|452|455|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|456|471|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;|currentLanguage|0
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|521|540|getI18nForcedReload|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18nForcedReload|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|541|556|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18n|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;|currentLanguage|0
    Method End: getI18n(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
+   Method Start: getI18nForcedReload(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|628|643|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18nForcedReload|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;|currentLanguage|0
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|596|600|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|601|620|getI18nForcedReload|method|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18nForcedReload|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|621|627|String|class|java.lang.String|false
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|661|665|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|675|679|I18n|class|com.Hileb.ofstream.ofstream.lang.I18n|false
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|680|695|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18nForcedReload|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;|currentLanguage|0
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|711|724|LANGUAGES_MAP|field|com.Hileb.ofstream.ofstream.lang.LangHelper|LANGUAGES_MAP
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|725|736|containsKey|method|java.util.Map|containsKey|(Ljava/lang/Object;)Z
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|737|752|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18nForcedReload|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;|currentLanguage|0
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|769|782|LANGUAGES_MAP|field|com.Hileb.ofstream.ofstream.lang.LangHelper|LANGUAGES_MAP
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|783|789|remove|method|java.util.Map|remove|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|790|805|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18nForcedReload|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;|currentLanguage|0
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|828|841|LANGUAGES_MAP|field|com.Hileb.ofstream.ofstream.lang.LangHelper|LANGUAGES_MAP
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|842|845|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/Hileb/ofstream/ofstream/lang/LangHelper.java|846|861|currentLanguage|param|com.Hileb.ofstream.ofstream.lang.LangHelper|getI18nForcedReload|(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;|currentLanguage|0
+   Method End: getI18nForcedReload(Ljava/lang/String;)Lcom/Hileb/ofstream/ofstream/lang/I18n;
 Class End  : com.Hileb.ofstream.ofstream.lang.LangHelper
 endProcessing "com/Hileb/ofstream/ofstream/lang/LangHelper.java"
 

@@ -1,32 +1,35 @@
 package com.Hileb.ofstream.ofstream.lang;
 
-import com.google.common.collect.Lists;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.resources.*;
-import net.minecraft.client.resources.Locale;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.text.translation.LanguageMap;
-import net.minecraftforge.client.resource.VanillaResourceType;
-import net.minecraftforge.fml.client.FMLClientHandler;
-import net.minecraftforge.fml.common.Loader;
-import net.minecraftforge.fml.common.ModContainer;
+
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-import java.io.IOException;
-import java.lang.reflect.Array;
-import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
+
 import java.util.*;
 
 
 @SideOnly(Side.CLIENT)
 public class LangHelper {
+    public static HashMap<String,I18n> LANGUAGES_MAP=new HashMap<>();
     public static I18n getI18n(String currentLanguage)
     {
-        Locale locale=new Locale();
-        locale.loadLocaleDataFiles( Minecraft.getMinecraft().getResourceManager(), Lists.newArrayList(currentLanguage));
-
-        return new I18n(locale,currentLanguage);
+        if (LANGUAGES_MAP.containsKey(currentLanguage)){
+            return LANGUAGES_MAP.get(currentLanguage);
+        }
+        else {
+            return getI18nForcedReload(currentLanguage);
+        }
     }
+    public static I18n getI18nForcedReload(String currentLanguage)
+    {
+        I18n i18n=new I18n(currentLanguage);
+        if (LANGUAGES_MAP.containsKey(currentLanguage)){
+            LANGUAGES_MAP.remove(currentLanguage);
+        }
+        LANGUAGES_MAP.put(currentLanguage,i18n);
+
+        return i18n;
+
+    }
+
 }

@@ -1,13 +1,16 @@
 package com.Hileb.ofstream.ofstream.lang;
 
+import com.google.common.collect.Lists;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.Locale;
 
 public class I18n {
     private final Locale i18nLocale;
     public final String type;
-    public I18n(Locale localeIn,String typeIn){
-        i18nLocale=localeIn;
-        type=typeIn;
+    public I18n(String currentLanguage){
+        i18nLocale=new Locale();
+        i18nLocale.loadLocaleDataFiles( Minecraft.getMinecraft().getResourceManager(), Lists.newArrayList(currentLanguage));
+        type=currentLanguage;
     }
 
     /**
