@@ -10,6 +10,8 @@ import java.util.*;
 
 @SideOnly(Side.CLIENT)
 public class LangHelper {
+    public static final String ZH_CN="zh_cn";
+    public static final String EN_US="en_us";
     public static HashMap<String,I18n> LANGUAGES_MAP=new HashMap<>();
     public static I18n getI18n(String currentLanguage)
     {

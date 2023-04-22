@@ -58,7 +58,7 @@ public class Renderer {
         GL11.glPopMatrix();
 
         fbo.end();
-        fbo.saveToFile(new File(minecraft.mcDataDir, String.format("rendered/item_%s_%d%s.png", itemStack.getItem().getUnlocalizedName().replaceAll("[^A-Za-z0-9()\\[\\]]", ""), itemStack.getItemDamage(), filenameSuffix)));
+        fbo.saveToFile(new File(minecraft.mcDataDir, String.format("rendered"+File.separator+"item_%s_%d%s.png", itemStack.getItem().getUnlocalizedName().replaceAll("[^A-Za-z0-9()\\[\\]]", ""), itemStack.getItemDamage(), filenameSuffix)));
         fbo.restoreTexture();
     }
 

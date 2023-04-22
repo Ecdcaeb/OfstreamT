@@ -48,7 +48,7 @@ public final class FBOHelper {
         createFramebuffer();
     }
 
-    void begin() {
+   public void begin() {
         checkGlErrors("FBO Begin Init");
 
         // Remember current framebuffer.
@@ -80,7 +80,7 @@ public final class FBOHelper {
         checkGlErrors("FBO Begin Final");
     }
 
-    void end() {
+    public void end() {
         checkGlErrors("FBO End Init");
 
         GlStateManager.cullFace(GlStateManager.CullFace.BACK);
@@ -109,11 +109,11 @@ public final class FBOHelper {
 
     // This is only a separate function because the texture gets messed with
     // after you're done rendering to read the FBO
-    void restoreTexture() {
+    public void restoreTexture() {
         GlStateManager.bindTexture(lastTexture);
     }
 
-    void saveToFile(File file) {
+    public void saveToFile(File file) {
         // Bind framebuffer texture
         GlStateManager.bindTexture(textureID);
 
@@ -140,7 +140,7 @@ public final class FBOHelper {
         }
     }
 
-    String getBase64() {
+    public String getBase64() {
         // Bind framebuffer texture
         GlStateManager.bindTexture(textureID);
 
@@ -169,7 +169,7 @@ public final class FBOHelper {
         return Base64.encodeBase64String(out.toByteArray());
     }
 
-    private void createFramebuffer() {
+    public void createFramebuffer() {
         framebufferID = EXTFramebufferObject.glGenFramebuffersEXT();
         textureID = GL11.glGenTextures();
         int currentFramebuffer = GL11.glGetInteger(EXTFramebufferObject.GL_FRAMEBUFFER_BINDING_EXT);
@@ -203,13 +203,13 @@ public final class FBOHelper {
         EXTFramebufferObject.glBindFramebufferEXT(EXTFramebufferObject.GL_FRAMEBUFFER_EXT, currentFramebuffer);
     }
 
-    private void deleteFramebuffer() {
+    public void deleteFramebuffer() {
         EXTFramebufferObject.glDeleteFramebuffersEXT(framebufferID);
         GL11.glDeleteTextures(textureID);
         EXTFramebufferObject.glDeleteRenderbuffersEXT(depthbufferID);
     }
 
-    private static void checkGlErrors(String message) {
+    public static void checkGlErrors(String message) {
         int error = GL11.glGetError();
 
         if (error != 0) {
