@@ -4,11 +4,11 @@ plugins {
 }
 
 
-group = 'com.Hileb'
+group = 'Hileb.Ofstream'
 version = '116.0'
 
 java {
-    archivesBaseName = 'OfstreamT'
+    archivesBaseName = 'ofstream_t'
     toolchain.languageVersion = JavaLanguageVersion.of(8)
 }
 

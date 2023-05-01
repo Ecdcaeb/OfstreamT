@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: OfstreamT
+Implementation-Version: 116.0
+Specification-Title: ofstream_t
+Implementation-Timestamp: 2023-05-01T15:51:36+0800
+Specification-Version: 1
+
