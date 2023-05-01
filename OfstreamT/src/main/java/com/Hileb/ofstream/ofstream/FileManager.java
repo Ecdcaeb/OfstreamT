@@ -29,8 +29,8 @@ public class FileManager {
         REGISTER.clear();
 
         MinecraftForge.EVENT_BUS.post(new OfstreamEvent.Register());
-        MinecraftForge.EVENT_BUS.post(new OfstreamEvent.EnUs(LangHelper.getI18n(LangHelper.EN_US)));
-        MinecraftForge.EVENT_BUS.post(new OfstreamEvent.ZhCn(LangHelper.getI18n(LangHelper.ZH_CN)));
+//        MinecraftForge.EVENT_BUS.post(new OfstreamEvent.EnUs(LangHelper.getI18n(LangHelper.EN_US)));
+//        MinecraftForge.EVENT_BUS.post(new OfstreamEvent.ZhCn(LangHelper.getI18n(LangHelper.ZH_CN)));
 
         for (OfstreamRegisterObject objects: REGISTER) {
             String dataId=objects.item;

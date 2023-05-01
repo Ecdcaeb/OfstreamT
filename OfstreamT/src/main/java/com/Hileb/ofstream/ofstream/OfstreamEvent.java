@@ -23,26 +23,27 @@ public abstract class OfstreamEvent extends Event {
             FileManager.register(object);
         }
     }
-    @Deprecated
-    public static class EnUs extends OfstreamEvent{
-        private final I18n i18n;
-        public EnUs(I18n i18nIn){
-            i18n=i18nIn;
-        }
 
-        public I18n getI18n() {
-            return i18n;
-        }
-    }
-    @Deprecated
-    public static class ZhCn extends OfstreamEvent{
-        private final I18n i18n;
-        public ZhCn(I18n i18nIn){
-            i18n=i18nIn;
-        }
-        public I18n getI18n() {
-            return i18n;
-        }
-    }
+//    @Deprecated
+//    public static class EnUs extends OfstreamEvent{
+//        private final I18n i18n;
+//        public EnUs(I18n i18nIn){
+//            i18n=i18nIn;
+//        }
+//
+//        public I18n getI18n() {
+//            return i18n;
+//        }
+//    }
+//    @Deprecated
+//    public static class ZhCn extends OfstreamEvent{
+//        private final I18n i18n;
+//        public ZhCn(I18n i18nIn){
+//            i18n=i18nIn;
+//        }
+//        public I18n getI18n() {
+//            return i18n;
+//        }
+//    }
 
 }

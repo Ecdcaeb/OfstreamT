@@ -2,6 +2,8 @@ package com.Hileb.ofstream.ofstream.lang;
 
 
 import net.minecraft.client.resources.Language;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
@@ -35,4 +37,9 @@ public class LangHelper {
 
     }
 
+    public static String getTranslateKey(ITextComponent iTextComponent){
+        if (iTextComponent instanceof TranslationTextComponent){
+           return  ((TranslationTextComponent)iTextComponent).getKey();
+        }else return iTextComponent.getUnformattedComponentText();
+    }
 }
